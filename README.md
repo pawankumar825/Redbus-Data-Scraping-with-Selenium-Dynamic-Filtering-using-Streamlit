@@ -1,6 +1,23 @@
 ## Project Overview
 This project automates the extraction and analysis of bus route data from the Redbus website, utilizing Selenium for web scraping and Streamlit for dynamic data visualization and filtering.
 
+### Files information :
+1) Scrapping Routes Using Selenium.ipynb: The first part of the project that extracts data for 10 different bus routes and their corresponding links.
+
+2) Extracting Data using Bus Links.ipynb: The second part that takes the CSV generated from the first part, which includes bus routes and links, and extracts detailed bus data.
+
+3) Redbus_Mysql.ipynb: This notebook stores the entire scraped bus data into a MySQL database for efficient management and querying.
+
+4) Streamlit_Redbus.py: A Streamlit application that allows dynamic filtering and visualization of the bus data.
+
+5) Streamlit App - Redbus Data Analysis1.pdf: Contains screenshots of the Streamlit app for reference and demonstration.
+
+6) all_bus_routes.csv: A CSV file containing bus routes and links for 10 different states.
+
+7) redbus_all_bus_data.csv: A comprehensive CSV file that contains all the scraped bus data.
+
+# Process Workflow :
+
 ### 1. Data Scraping
 Functionality: A Python script leverages Selenium to navigate the Redbus website, extracting key information about bus routes including:
 Bus names
